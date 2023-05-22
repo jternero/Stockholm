@@ -1,54 +1,54 @@
-# Stockholm 
 
-## Ransomware Simulation
-> This code simulates the WannaCry ransomware encryption/decryption process.
+# Stockholm
+
+## Simulación de ransomware
+> Este código simula el proceso de cifrado/descifrado del ransomware WannaCry.
 
   
 
-## Usage
+## Uso
 
-*To encrypt files:*
+*Para cifrar archivos:*
 
     python stockholm.py
 
-> You will be prompted to enter an encryption key. 
-> Enter a key with at least 16 characters.
+> Se le solicitará que ingrese una clave de cifrado. 
+> Ingrese una clave con al menos 16 caracteres.
 
   
 
-*To decrypt files:*
+*Para descifrar archivos:*
 
-    python stockholm.py -r YOUR_KEY
+    python stockholm.py -r TU_CLAVE
 
-> Replace YOUR_KEY with the key you entered during encryption.
+> Reemplace TU_CLAVE con la clave que ingresó durante el cifrado.
 
   
 
-## Features
+## Características
 
- - Encrypts/decrypts files with AES-CBC encryption using a key and IV
+ - Cifra/descifra archivos con cifrado AES-CBC utilizando una clave y un IV
    
-  - Adds .ft extension to encrypted files
+  - Agrega la extensión .ft a los archivos cifrados
    
- - Creates an "infection" folder to hold encrypted files
+ - Crea una carpeta "infection" para guardar los archivos cifrados
    
-  - Supports encrypting/decrypting a variety of common file types
+  - Admite el cifrado/descifrado de una variedad de tipos de archivo comunes
    
-   - Provides silent mode to suppress output
+   - Proporciona el modo silencioso para suprimir la salida
    
-   - Displays version information with -v flag
+   - Muestra información de versión con la opción -v
 
 
-## Requirements
+## Requisitos
 
 > - Python 3.7+
-> - Cryptodome library
+> - La biblioteca Cryptodome
 
-Install the Cryptodome library with:
+Instale la biblioteca Cryptodome con:
 
     pip install Cryptodome
 
-## Disclaimer
+## Descargo de responsabilidad
 
-*This code is for educational purposes only. I do not condone using ransomware to harm others.*
-
+*Este código es solo para fines educativos. No apruebo el uso de ransomware para dañar a otros.*
