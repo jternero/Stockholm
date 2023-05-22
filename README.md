@@ -13,7 +13,7 @@
     python stockholm.py
 
 > Se le solicitará que ingrese una clave de cifrado. 
-> Ingrese una clave con al menos 16 caracteres.
+> Ingrese una clave de 16 caracteres.
 
   
 
@@ -29,15 +29,13 @@
 
  - Cifra/descifra archivos con cifrado AES-CBC utilizando una clave y un IV
    
-  - Agrega la extensión .ft a los archivos cifrados
+ - Agrega la extensión .ft a los archivos cifrado
    
- - Crea una carpeta "infection" para guardar los archivos cifrados
-   
-  - Admite el cifrado/descifrado de una variedad de tipos de archivo comunes
-   
-   - Proporciona el modo silencioso para suprimir la salida
-   
-   - Muestra información de versión con la opción -v
+ - Admite el cifrado/descifrado de una variedad de tipos de archivo comunes
+ 
+ - Proporciona el modo silencioso para suprimir la salida  
+ 
+ - Muestra información de versión con la opción -v
 
 
 ## Requisitos
@@ -49,6 +47,6 @@ Instale la biblioteca Cryptodome con:
 
     pip install Cryptodome
 
-## Descargo de responsabilidad
+## AVISO
 
 *Este código es solo para fines educativos. No apruebo el uso de ransomware para dañar a otros.*
